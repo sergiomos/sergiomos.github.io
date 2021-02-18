@@ -167,6 +167,18 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 75px;
+}
+
+#skills-list ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#skills-list ul li img {
+  width: 60px;
+  margin-bottom: 15px;
 }
 

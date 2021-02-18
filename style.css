@@ -156,7 +156,6 @@ main {
 
 #skills-list {
   padding: 0 100px;
-
 }
 
 #skills-list ul {
@@ -168,7 +167,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 75px;
+  gap: 100px;
 }
 
 #skills-list ul li {

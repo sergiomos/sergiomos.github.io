@@ -20,6 +20,28 @@ h1, h2{
   font-family: 'laila', sans-serif;
 }
 
+aside {
+  padding: 30px 10px;
+  background-color: var(--pink-dark);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+
+  position:absolute;
+  top: 30%;
+  right: 0;
+
+  border-radius: 50px 0 0 50px;
+}
+
+aside img {
+  width: 35px;
+  filter: invert(100%) sepia(21%) saturate(0%) hue-rotate(70deg) brightness(101%) contrast(101%);
+}
+
 header {
   padding: 41px 81px ;
   display: flex;
@@ -183,4 +205,10 @@ main {
   filter: invert(66%) sepia(40%) saturate(500%) hue-rotate(75deg) brightness(102%) contrast(90%);
 }
 
+#projects{
+  margin-top: 100px;
+}
 
+#projects h2 {
+  font-size: 40px;
+}

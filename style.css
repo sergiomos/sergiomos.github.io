@@ -104,6 +104,7 @@ main {
 #home img {
   width: 593px;
   height: 416px;
+
 }
 
 
@@ -177,8 +178,10 @@ main {
   flex-direction: column;
 }
 
-#skills-list ul li img {
+#skills-list ul li img{
   width: 60px;
   margin-bottom: 15px;
+  filter: invert(66%) sepia(40%) saturate(500%) hue-rotate(75deg) brightness(102%) contrast(90%);
 }
+
 

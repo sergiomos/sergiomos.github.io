@@ -114,7 +114,8 @@ main {
 
 }
 
-#home button {
+
+#home button { 
   margin-top: 32px;
 
   background: none;
@@ -126,6 +127,13 @@ main {
   font-size: 18px;
   font-family: Asap;
   font-weight: bold;
+
+  transition: .3s;
+}
+
+#home button:hover{
+  cursor: pointer;
+  background-color: var(--pink-dark);
 }
 
 #home img {
@@ -133,7 +141,6 @@ main {
   height: 416px;
 
 }
-
 
 #about {
   margin-top: 200px;
@@ -148,12 +155,13 @@ main {
   width: 261px;
   border-radius: 50%;
   margin-right: 35px;
-  transition: .5s;
+  transition: .8s;
 }
 
 #about img:hover{
   cursor: pointer;
-  transform: scale(1.2) rotate(360deg);
+  border-radius: 10px;
+  transform: rotate(360deg);
 }
 
 #about p {

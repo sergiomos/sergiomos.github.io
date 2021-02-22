@@ -97,6 +97,7 @@ main {
 }
 
 #home {
+  width: 87vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -143,6 +144,7 @@ main {
 }
 
 #about {
+  width: 87vw;
   margin-top: 200px;
   margin-bottom: 100px;
 
@@ -259,6 +261,7 @@ main {
 }
 
 #projects{
+  width: 87vw;
   margin-top: 50px;
 
   display: flex;
@@ -308,4 +311,41 @@ main {
 .project-card h3 {
   font-size: 16px;
   font-family: 'laila', sans-serif;
+}
+
+#contact {
+  width: 87vw;
+  margin: 150px 0 85px;
+
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
+
+#contact-info h2 {
+  margin-bottom: 15px;
+  font-size: 35px;
+}
+
+#contact-info span {
+  font-family: 'laila', sans-serif;
+}
+
+#contact-info p {
+  margin-bottom: 8px;
+}
+
+#contact-info p a {
+  color: inherit;
+  font-family: 'laila', sans-serif;
+  text-decoration: none;
+} 
+
+.pink-color {
+  color: var(--pink-base);
+}
+
+
+#contact img {
+  width: 700px;
 }

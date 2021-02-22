@@ -259,9 +259,46 @@ main {
 }
 
 #projects{
-  margin-top: 100px;
+  margin-top: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 #projects h2 {
   font-size: 40px;
+  margin-bottom: 25px;
+}
+
+#portifolio-grid {
+
+}
+
+.project-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.project-card img {
+  width: 250px;
+  height: 250px;
+  
+  border-radius: 20px;
+  margin-bottom: 20px;
+  transition: .3s;
+  
+}
+
+.project-card img:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.project-card h3 {
+  font-family: 'laila', sans-serif;
 }

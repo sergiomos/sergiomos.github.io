@@ -167,6 +167,32 @@ main {
 #about p {
   width: 842px;
   line-height: 25px;
+  margin-bottom: 10px;
+}
+
+#soft-skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.soft-skills-card {
+  padding: 5px;
+
+  background-color: var(--pink-light);
+  color: var(--white);
+  font-weight: 700;
+
+  border-radius: 5px;
+
+  transition: .3s;
+}
+
+.soft-skills-card:hover {
+  cursor: pointer;
+  background-color: var(--white);
+  color: var(--pink-light);
 }
 
 #skills {

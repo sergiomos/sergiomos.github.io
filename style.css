@@ -273,7 +273,13 @@ main {
 }
 
 #portifolio-grid {
+  display: grid;
+  justify-content: center;
+  align-items: center;
 
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  
 }
 
 .project-card {

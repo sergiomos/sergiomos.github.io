@@ -5,28 +5,160 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portifólio</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Laila:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Sérgio Martins de Oliveira Santos</h1>
+  
 
-  <img src="https://avatars.githubusercontent.com/u/39865942?s=460&u=926d9a6ae5649085886ce2584fd924e947ad22f7&v=4" alt="foto do Sérgio Martins" id="foto">
+  <header>
+    <h2 id="logo">SERGIO <span class="pink">MARTINS</span></SEct></h2>
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre mim</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#projects">Portifólio</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <aside>
+    <a href="https://github.com/sergiomos" target="_blank" rel="noopener noreferrer">
+      <img src="https://ik.imagekit.io/sergiomos/icons/github_BQaTCeAuY.svg" alt="GitHub Icone">
+    </a>
 
-  <p>
-    Idade: 19 anos
-    Nascionalidade: Brasileiro
-    Cidade Atual: São Bernardo do Campo - SP
-    Etnia: Preto
-  </p>
+    <a href="https://www.instagram.com/sergio_mdo/" target="_blank" rel="noopener noreferrer">
+      <img src="https://ik.imagekit.io/sergiomos/icons/instagram_cJIMI9w7r.svg" alt="instagram Icone">
+    </a>
 
-  <ul>
-    <li>Javascript</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Next.js</li>
-    <li>React.js</li>
-  </ul>
+    <a href="https://www.linkedin.com/in/sergiomos/" target="_blank" rel="noopener noreferrer">
+      <img src="https://ik.imagekit.io/sergiomos/icons/linkedin_YuAjafOkDf.svg" alt="Linkedin Icone">
+    </a>
+  </aside>
+  <main>
+    <section id="home">
+      <div>
+        <h1>Web Developer</h1>
+        <p>Não espere pelo momento perfeito. Faça de cada momento a oportunidade perfeita.</p>
+        <a href="https://web.whatsapp.com/send?phone=5511993360552" target="_blank" rel="noopener noreferrer"><button id="home-button">Entre em contato</button></a>
+        
+      </div>
 
-  <a href="#foto">Ver foto de perfil</a>
-  <a href="https://diolinux.com.br/" target="_blank">Blog do diolinux</a>
+      <span>
+        <img src="https://ik.imagekit.io/sergiomos/undraw_web_developer_p3e5_VE1MyFs01.svg" alt="ilustração de pessoa desenvolvendo um site">
+      </span>
+    </section>
+
+    <section id="about">
+      <span>
+        <img src="https://avatars.githubusercontent.com/u/39865942?s=460&u=926d9a6ae5649085886ce2584fd924e947ad22f7&v=4" alt="Foto do Sérgio Martins">
+      </span>
+      <div>
+        <h2>Sobre mim</h2>
+        <p>
+          <strong>Sérgio Martins de Oliveira Santos</strong>
+          <br>
+          Nascido em Santo André e residente de São Bernado do Campo, cresci sendo um grande admirador da tecnologia, tudo me fascina. E tudo mesmo, na época da escola, por exemplo, quando estava com o tempo vago, vivia ajudando a consertar um computador que quebrou, configurava os roteadores, arrumava até celulares.
+          <br><br>
+          Mas, não podemos abraçar o mundo! E hoje em dia, aos 19 anos, declaro todo meu amor ao desenvolvimento de software, por isso, no intuito de me aperfeiçoar cada vez mais, estou estudando Desenvolvimento de Software Web na Trybe.         
+        </p>
+
+        <div id="soft-skills">
+          <span class="soft-skills-card">Criativo</span>
+          <span class="soft-skills-card">Pensamento Crítico</span>
+          <span class="soft-skills-card">Observador</span>
+          <span class="soft-skills-card">Liderança</span>
+          <span class="soft-skills-card">Colaborativo</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="pink-bg">
+        <h2>Hard Skills</h2>
+      </div>
+
+      <div id="skills-list">
+        <ul>
+          <li>
+            <img src="https://ik.imagekit.io/sergiomos/icons/html5_E7JrzL8CEv.svg" alt="HTML icone">
+            <h3>HTML</h3>
+          </li>
+
+          <li>
+            <img src="https://ik.imagekit.io/sergiomos/icons/css3__h8QwY6WU.svg" alt="CSS icone">
+            <h3>CSS</h3>
+          </li>
+
+          <li>
+            <img src="https://ik.imagekit.io/sergiomos/icons/javascript_ygsLnZgok.svg" alt="Javascript Icone">
+            <h3>Javascript</h3>
+          </li>
+
+          <li>
+            <img src="https://ik.imagekit.io/sergiomos/icons/react_KPPLrevs75.svg" alt="React Icone">
+            <h3>React</h3>
+          </li>
+
+          <li>
+            <img src="https://ik.imagekit.io/sergiomos/icons/next-dot-js_fs-hA8iiP.svg" alt="Next js Icone">
+            <h3>Next Js</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projetos</h2>
+
+      <div id="portifolio-grid">
+        <div class="project-card">
+          <a href="https://felipericci.com" target="_blank">
+            <img src="https://ik.imagekit.io/sergiomos/felipericci_mVdwTZ6Z8.png" alt="Site da Escola Felipe Ricci">
+          </a>
+          <h3>Escola Felipe Ricci</h3>
+        </div>
+
+        <div class="project-card">
+          <a href="https://github.com/sergiomos/nlw3-happy" target="_blank">
+            <img src="https://ik.imagekit.io/sergiomos/nlw_ZBEUCyM803.jpeg" alt="Repositório next level week">
+          </a>
+          <h3>Next Level Week 3 - Happy</h3>
+        </div>
+
+        <div class="project-card">
+          <a href="https://witchquiz.sergiomos.vercel.app/" target="_blank">
+            <img src="https://ik.imagekit.io/sergiomos/alutaquiz_Yusz848Bz.png" alt="Site do Alura Quiz">
+          </a>
+          <h3>Alura Quiz</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div id="contact-info">
+        <h2>Entre em contato</h2>
+        <p>
+          <span class="pink-color">E-mail:</span>
+          <a href="mailto:sergiomos2010@gmail.com" target="_blank">sergiomos2010@gmail.com</a>
+        </p>
+        <p>
+          <span class="pink-color">Whatsapp:</span>
+          <a href="https://web.whatsapp.com/send?phone=5511993360552" target="_blank" rel="noopener noreferrer">(11) 9933-60552</a>
+        </p>
+
+        <a href="https://web.whatsapp.com/send?phone=5511993360552" target="_blank" rel="noopener noreferrer"><button id="home-button">Abrir Whatsapp</button></a>
+      </div>
+
+      <img src="https://ik.imagekit.io/sergiomos/undraw_contact_us_15o2_X3WlqZwqI.svg" alt="contato svg ilustração">
+    </section>
+
+
+  </main>
+
 </body>
 </html>
